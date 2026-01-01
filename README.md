@@ -27,6 +27,11 @@ The dataset contains information about:
 * Customer reviews
 * Geolocation (ZIP-code level)
 
+
+### Entity-Relationship Diagram
+
+![ERD](./snowflake/assets/ERD.png)
+
 ---
 
 ## 3. Data Architecture
