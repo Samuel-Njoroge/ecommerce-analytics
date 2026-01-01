@@ -7,15 +7,6 @@ Building a **L**oading and **T**ransformation analytics layer in an Ecommerce Co
 
 This project implements a **production-grade analytics platform** for the Brazilian Olist ecommerce dataset using **Snowflake** and **dbt**. The goal is to transform raw transactional data into **trusted, analytics-ready marts** that answer key business questions around customers, products, sellers, payments, and reviews.
 
-The project follows modern analytics engineering best practices:
-
-* ELT architecture (Extract → Load → Transform)
-* Clear data modeling layers (RAW → STAGING → INTERMEDIATE → DIMENSIONS → MARTS)
-* Incremental processing for scalability
-* Automated data quality testing
-* Slowly Changing Dimensions (SCDs)
-* Full data lineage and documentation
-
 ---
 
 ## 2. Data Source: Olist Ecommerce Dataset
@@ -41,7 +32,8 @@ The dataset contains information about:
 ## 3. Data Architecture
 
 
-![stack](./snowflake/assets/architecture.png)
+![stack](./snowflake/assets/stack-arch.png)
+
 
 ### Technology Stack
 
